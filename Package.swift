@@ -3,10 +3,6 @@ import PackageDescription
 
 let package = Package(
     name: "MyTimesKit",
-    platforms: [
-        .iOS(.v13),
-        .macOS(.v12)
-    ],
     products: [
         .library(
             name: "MyTimesKit",
@@ -14,8 +10,6 @@ let package = Package(
         )
     ],
     targets: [
-        .target(
-            name: "MyTimesKit"
-        )
+        .target(name: "MyTimesKit")
     ]
 )
